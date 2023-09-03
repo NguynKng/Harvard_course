@@ -13,7 +13,7 @@ class Flight():
         return self.capacity - len(self.passenger)
 flight = Flight(3)
 people = ["Jett", "Reyna", "Yasuo"]
-for person in peole:
+for person in people:
     success = flight.add_passenger(person)
     if success:
         print(f"Added {person} to flight successfully.")
