@@ -1,0 +1,27 @@
+.input .input-field{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: #fff;
+}
+.input label{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    transition: .3s;
+}
+.input-field:focus, .input-field:valid{
+    border-bottom: 2px solid red;
+}
+.input-field:focus ~ label, .input-field:valid ~ label{
+    top: 90px;
+    font-size: 15px;
+    color: red;
+}
+.input{
+    padding: 100px 100px;
+}
