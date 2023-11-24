@@ -1,0 +1,13 @@
+[{
+    "id" : "1",
+    "origin":"Vietnam",
+    "destination" : "BangKok"
+}, {
+    "id" : "2",
+    "origin":"BangKok",
+    "destination" : "Taiwan"
+}, {
+    "id" : "3",
+    "origin":"Taiwan",
+    "destination" : "China"
+}]
