@@ -5,7 +5,6 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 import hashlib
 import os
 import requests
-#test
 app = Flask(__name__)
 if not os.getenv("DATABASE_URL"):
     raise RuntimeError("DATABASE_URL is not set")
