@@ -6,7 +6,6 @@ import hashlib
 import os
 import requests
 
-
 app = Flask(__name__)
 if not os.getenv("DATABASE_URL"):
     raise RuntimeError("DATABASE_URL is not set")
