@@ -1,0 +1,24 @@
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-field {
+    padding: 10px;
+}
+
+.input-field:focus {
+    outline: none
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: black;
+    width: 100px;
+    padding: 10px;
+}
