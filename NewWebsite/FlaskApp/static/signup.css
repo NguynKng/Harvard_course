@@ -3,12 +3,13 @@ body {
     padding-bottom: 40px;
 }
 
-.form-signin button{
+.form-signin .button{
     border: none;
     color: white;
     background-color: black;
     padding: 20px;
-    font-size: 15px;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 .form-signin {
