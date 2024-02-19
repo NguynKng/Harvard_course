@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <title>Sign Up</title>
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
-    <link href="../static/signup.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
   </head>
   <body>
     <div class="container">
@@ -12,21 +12,21 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation"><a href="/">Home</a></li>
-            <li role="presentation"><a href="#">Login</a></li>
+            <li role="presentation"><a href="/showLogin">Login</a></li>
           </ul>
         </nav> 
         <h3 class="text-muted">Python Flask App</h3>
       </div>
       <div class="jumbotron">
         <h1>Sign up</h1>
-        <form class="form-signin">
+        <form class="form-signin" action="/signup" method="POST">
           <label for="inputName" class="sr-only">Username</label>
-          <input type="text" name="name" id="inputName" class="form-control" placeholder="Username" required autofocus>
+          <input type="text" name="username" id="inputName" class="form-control" placeholder="Username" required autofocus>
           <label for="inputPassword" class="sr-only">Password</label>
           <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
           <label for="inputEmail" class="sr-only">Email</label>
           <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-          <input type="submit" class="button">
+          <input type="submit" class="button" value="Sign up">
         </form>
       </div>
       <footer class="footer">
