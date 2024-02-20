@@ -1,0 +1,2 @@
+# Cristiano Ronaldo
+* Cristiano Ronaldo dos Santos Aveiro GOIH ComM (phát âm tiếng Bồ Đào Nha: [kɾiʃˈtjɐnu ʁɔˈnaldu]; sinh ngày 5 tháng 2 năm 1985) là một cầu thủ bóng đá chuyên nghiệp người Bồ Đào Nha hiện đang thi đấu ở vị trí tiền đạo và là đội trưởng của câu lạc bộ Saudi Pro League Al Nassr và đội tuyển bóng đá quốc gia Bồ Đào Nha. Được coi là một trong những cầu thủ vĩ đại nhất mọi thời đại, Ronaldo là chủ nhân của 5 Quả bóng vàng[ghi chú 3] và 4 Chiếc giày vàng châu Âu.

@@ -8,12 +8,12 @@
 <div class="container">
 {% if error %}
 <h2 text-align="center">404 Not found</h2>
-{%else%}
-{%if message%}
+{% else %}
+{% if message %}
   <div class="alert alert-danger" style="text-align: center;" role="alert">
     {{message}}
   </div>
-  {%endif%}
+{% endif %}
   <form method="POST">
     {% csrf_token%}
     <div class="form mt-3">
@@ -26,12 +26,12 @@
           name="content"
           rows="10"
           placeholder="Write page content in markdown"
-        >{%if content%}{{content}}{%endif%}</textarea>
+        >{% if conten t%}{{content}}{% endif %}</textarea>
       </div>
       <input type="submit" value="Save" class="btn btn-success my-3" />
     </div>
   </form>
-  {%endif%}
+  {% endif %}
 </div>
 
 {% endblock %}

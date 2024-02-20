@@ -1,2 +1,3 @@
-a = [1,2,3,4]
-b = a.Get
+import os
+path = os.listdir("images/CR7")
+print(list(path))

@@ -24,12 +24,10 @@ def search(request):
         return redirect("entry", title=q)
     return render(request, "encyclopedia/search.html", {"entries": util.search(q), "q": q})
 
-
 def random_page(request):
     entries = util.list_entries()
     random_title = entries[randint(0, len(entries)-1)]
     return redirect("entry", title=random_title)
-
 
 def create(request):
     if request.method == "POST":

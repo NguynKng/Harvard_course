@@ -6,4 +6,4 @@ def home(request):
     return HttpResponse("Hello Khang! Welcome back.")
 
 def form(request):
-    return render(request, "hello/index.html")
+    return render(request,"hello/index.html")

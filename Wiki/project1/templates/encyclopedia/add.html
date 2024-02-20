@@ -6,11 +6,11 @@
 <h1>Create New Page</h1>
 
 <div class="container">
-{%if message%}
+{% if message %}
   <div class="alert alert-danger" style="text-align: center;" role="alert">
     {{message}}
   </div>
-{%endif%}
+{% endif %}
   <form method="POST">
     {% csrf_token%}
     <div class="form">

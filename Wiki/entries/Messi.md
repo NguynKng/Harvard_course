@@ -1,0 +1,2 @@
+# Lionel Messi
+* Lionel Andrés Messi[ghi chú 1] (phát âm tiếng Tây Ban Nha: [ljoˈnel anˈdɾes ˈmesi]  ( nghe); sinh ngày 24 tháng 6 năm 1987), còn được gọi là Leo Messi, là một cầu thủ bóng đá chuyên nghiệp người Argentina hiện đang thi đấu ở vị trí tiền đạo và là đội trưởng của câu lạc bộ Major League Soccer Inter Miami và đội tuyển bóng đá quốc gia Argentina. 
